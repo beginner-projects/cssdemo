@@ -1,0 +1,30 @@
+.maincntnr {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+  background: rgb(4, 114, 248);
+  border: none;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.message {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  box-sizing: border-box;
+  bottom: 0;
+}
+
+@media (min-width: 600px) {
+  .maincntnr {
+    padding: 2%;
+  }
+}
