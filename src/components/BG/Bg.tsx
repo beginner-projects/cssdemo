@@ -14,7 +14,7 @@ export default function Bg() {
                     <Wallet />
                     <FlashLogo />
                 </div>
-                <div className={styles.message}>
+                <div className={styles.poolData}>
                     <Pool />
                     <Timer />
                 </div>
